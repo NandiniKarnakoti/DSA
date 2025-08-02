@@ -5,7 +5,7 @@ for i in range(n):
   sum_val+=i
 print(sum_val)
 #Efficient Solution
-n=int(input()
+n=int(input())
 val=0
 for i in range(1,n):
   for j in range(1,i):
