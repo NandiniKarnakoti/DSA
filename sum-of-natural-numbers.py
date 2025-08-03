@@ -4,7 +4,7 @@ sum_val=0
 for i in range(n):
   sum_val+=i
 print(sum_val)
-#Efficient Solution
+#Another Approach
 n=int(input())
 val=0
 for i in range(1,n+1):
