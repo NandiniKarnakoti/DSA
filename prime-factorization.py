@@ -8,7 +8,7 @@ def primeFactors(n):
   for i in range(2,n+1):
     if isPrime(i):
       x=i
-      while n%i==0:
+      while n%x==0:
         print(i)
       x=x*i
 if __name__=='__main__':
